@@ -1,0 +1,1 @@
+print('aaa\nvvv\nmmm')
