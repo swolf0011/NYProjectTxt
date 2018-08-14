@@ -90,6 +90,112 @@ ABC
 'Hello, 小明, 成绩提升了 17.1%'
 
 
+list
+>>>list = ['a','b',2,9,true]
+>>>len(list)
+5
+>>>list[0]
+a
+>>>list[-1]
+true
+>>>list.append('33')
+>>>list
+['a','b',2,9,true,'Jack','33']
+>>>list.insert(1,'Jack')
+>>>list
+['a','Jack','b',2,9,true,'33']
+
+>>>list.pop()
+'33'
+>>>list
+['a','Jack','b',2,9,true]
+>>>list.pop(1)
+Jack
+>>>list
+['a',2,9,true]
+>>>list[2] = 38
+>>>list
+['a',2,38,true]
+
+tuple
+>>>tuple = ('1','2','3')
+>>>tuple[2]
+3
+
+
+>>>age = 10;
+   if age>18:
+      print(age)
+
+>>>if age>30:
+        print(1)
+   else:
+	print(23)
+
+>>>if age>30:
+	print(3)
+   elif age>20:
+	print(2)
+   else:
+	print(1)
+
+s ='12'
+i = int(s)
+print(i)
+12
+
+
+names =['a','v','b']
+for item in names:
+   print(item)
+
+
+for itemi ['2','3']:
+   print(item)
+
+//range()函数，可以生成一个整数序列，再通过list()函数可以转换为list
+ls = list(range(100))
+len(ls)
+100
+
+
+num=110
+while num>100:
+   if num ==105:
+      break
+   if num ==107:
+      continue
+   print(num)
+   num--
+
+
+d ={'zs':98,'ls':96,'ww':93}
+d['zs']
+98
+
+要避免key不存在的错误，有两种办法，一是通过in判断key是否存在：
+
+>>> 'Thomas' in d
+False
+二是通过dict提供的get()方法，如果key不存在，可以返回None，或者自己指定的value：
+
+>>> d.get('ls')
+>>> d.get('ls', -1)
+-1
+
+注意：返回None的时候Python的交互环境不显示结果。
+
+d.pop('ls')
+d
+{'ls':96,'ww':93}
+
+s = sel([1,2,3])
+s
+{1,2,3}
+
+
+
+
 
 
 
